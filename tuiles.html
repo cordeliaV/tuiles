@@ -30,18 +30,18 @@ name="rtoggle"
 value="streets"
 checked="checked"
 />
-<label for="streets-v11">Mapbox</label>
-<input id="https://vectortiles.ign.fr/demonstrateur/styles/planign.json" type="radio" name="rtoggle" value="dark" />
-<label for="dark-v10">IGN</label>
-<input id="https://openmaptiles.geo.data.gouv.fr/styles/osm-bright/style.json" type="radio" name="rtoggle" value="outdoors" />
-<label for="outdoors-v11">Etalab</label>
-<input id="https://geoserveis.icgc.cat/contextmaps/icgc.json" type="radio" name="rtoggle" value="satellite" />
-<label for="satellite-v9">ICGC</label>
-  <input id="https://geoserveis.icgc.cat/contextmaps/fulldark.json" type="radio" name="rtoggle" value="satellite" />
-<label for="satellite-v9">fulldark</label>
-  <input id="https://geoserveis.icgc.cat/contextmaps/night.json" type="radio" name="rtoggle" value="satellite" />
-<label for="satellite-v9">night</label>
-  <input id="https://geoserveis.icgc.cat/contextmaps/positron.json" type="radio" name="rtoggle" value="satellite" />
+<label for="streets-v11">Positron</label>
+<input id="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"/>
+<label for="dark-v10">Dark Matter</label>
+<input id="https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json" />
+<label for="outdoors-v11">Voyager</label>
+<input id="https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json"/>
+<label for="satellite-v9">Positron no labels</label>
+  <input id="https://basemaps.cartocdn.com/gl/positron-nolabels-gl-style/style.json" />
+<label for="satellite-v9">Dark Matter No Labels</label>
+  <input id="https://basemaps.cartocdn.com/gl/dark-matter-nolabels-gl-style/style.json" />
+<label for="satellite-v9">Voyager No Labels</label>
+  <input id="https://basemaps.cartocdn.com/gl/voyager-nolabels-gl-style/style.json" />
 <label for="satellite-v9">POSITRON</label>
 </div>
 <script>
@@ -67,4 +67,4 @@ inputs[i].onclick = switchLayer;
 </script>
  
 </body>
-</html
+</html>
